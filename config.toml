@@ -1,4 +1,4 @@
-baseURL = "http://ibinson.dev/"
+baseURL = "https://quantumistic.pages.dev/"
 languageCode = "en-us"
 title = "Ben Ibinson"
 theme = "hugo-theme-m10c"
