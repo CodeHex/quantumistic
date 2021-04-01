@@ -1,0 +1,40 @@
+baseURL = "http://ibinson.dev/"
+languageCode = "en-us"
+title = "Ben Ibinson"
+theme = "hugo-theme-m10c"
+paginate = 2
+canonifyurls = true
+
+[params]
+  author = "Ben Ibinson"
+  description = "Software developer"
+  avatar = "images/cube.png"
+  menu_item_separator = " - "
+  [[params.social]]
+    icon = "github"
+    name = "Github"
+    url = "https://github.com/codehex"
+  [[params.social]]
+    icon = "twitter"
+    name = "Twitter"
+    url = "https://twitter.com/BenIbinson"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+
+
